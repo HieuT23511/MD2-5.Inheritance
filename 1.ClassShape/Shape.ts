@@ -24,7 +24,6 @@ export class Shape {
     }
 
     toString() {
-        return `A Shape with color of ${this.getColor()} and
-        ${this._filled ? "filled" : "not filled"}`
+        return `A Shape with color: ${this.getColor()} and ${this._filled ? "filled" : "not filled"}`
     }
 }
